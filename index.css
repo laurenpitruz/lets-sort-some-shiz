@@ -1,0 +1,22 @@
+body {
+  background-color: aliceblue;
+}
+
+#input-div {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#sorting-div {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.bar {
+  width: 5px;
+  background-color: blueviolet;
+  border: 1px solid black;
+  margin: 1px;
+}
